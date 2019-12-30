@@ -8,25 +8,27 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Pehal"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Requester"><intent-filter>
-            <action android:name=".Requester" />
+        <activity android:name=".anotherActivity"></activity>
+        <activity android:name=".Volunteer" >
+        <intent-filter>
+            <action android:name=".Volunteer" />
 
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
         </activity>
-        <activity android:name=".Volunteer">
+        <activity android:name=".Requester">
             <intent-filter>
-                <action android:name=".Volunteer" />
+                <action android:name=".Requester" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".SignupForm" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".loginForm">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

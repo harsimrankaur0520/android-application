@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         Intent intent = new Intent(".Volunteer");
-                        startActivity(intent);
+                        //startActivity(intent);
+                        startActivity(new Intent(getApplicationContext(),Volunteer.class) );
+
 
                     }
                 }

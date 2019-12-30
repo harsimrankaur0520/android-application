@@ -1,12 +1,8 @@
 package com.example.signup;
 
-public class modelclass {
-    String title, description;
-
-    public modelclass(String title, String description) {
-        this.title = title;
-        this.description = description;
-    }
+public class Model {
+    private  String title, description;
+    private int img;
 
     public String getTitle() {
         return title;
@@ -22,5 +18,13 @@ public class modelclass {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public int getImg() {
+        return img;
+    }
+
+    public void setImg(int img) {
+        this.img = img;
     }
 }
