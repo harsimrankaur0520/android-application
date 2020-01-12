@@ -27,7 +27,6 @@
             android:inputType="text"
             android:textSize="20sp"
             android:id="@+id/editFullName"
-
             />
     </com.google.android.material.textfield.TextInputLayout>
 
