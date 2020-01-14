@@ -2,4 +2,7 @@
     <string name="app_name">Signup</string>
     <string name="title_activity_volunteer">Volunteer</string>
     <string name="title_activity_volunteers">Volunteers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

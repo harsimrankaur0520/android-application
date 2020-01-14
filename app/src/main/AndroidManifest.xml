@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.example.signup">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+
     <dist:module dist:instant="true" />
 
     <application
@@ -12,7 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".uploadNgoList"></activity>
+
+
+        <activity android:name=".uploadNgoList" />
         <activity android:name=".detailVolunteer" />
         <activity android:name=".Volunteer">
             <intent-filter>
@@ -21,7 +27,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Requester">
+        <activity android:name=".Requester"
+            android:theme="@style/Requester">
             <intent-filter>
                 <action android:name=".Requester" />
 
